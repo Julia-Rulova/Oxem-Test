@@ -1,0 +1,18 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 213px 47px;
+}
+
+.app__title {
+    max-width: 753px;
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 0.9;
+    color: #111111;
+    margin: 0 0 23px;
+    padding: 0;
+    text-align: left;
+}

@@ -1,0 +1,32 @@
+.sum__container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 180px;
+}
+
+.sum__container:last-of-type {
+    margin-left: 230px;
+}
+
+.sum__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #575757;
+    margin: 44px 0 8px;
+    padding: 0;
+    text-align: left;
+}
+
+.sum__total {
+    font-family: 'Nekst-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 0.9;
+    color: #575757;
+    margin: 0;
+    padding: 0;
+}
