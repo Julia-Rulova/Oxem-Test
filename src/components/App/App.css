@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 213px 47px;
+    max-width: 1344px;
 }
 
 .app__title {
@@ -12,7 +13,33 @@
     font-size: 54px;
     line-height: 0.9;
     color: #111111;
-    margin: 0 0 23px;
+    margin: 0 0 32px;
     padding: 0;
     text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .app {
+        max-width: 928px;
+        margin: 100px 48px 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        max-width: 696px;
+        margin: 64px 36px 156px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app {
+        max-width: calc(100% - 40px);
+        margin: 44px auto 64px;
+    }
+
+    .app__title {
+        max-width: 100%;
+        font-size: 34px;
+    }
 }

@@ -1,11 +1,11 @@
 import './App.css';
-import Input from '../Input/Input';
+import Form from '../Form/Form';
 
 function App() {
   return (
     <div className="app">
       <h1 className="app__title">Рассчитайте стоимость автомобиля в лизинг</h1>
-      <Input />
+      <Form />
     </div>
   );
 }
