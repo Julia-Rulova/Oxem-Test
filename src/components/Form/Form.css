@@ -46,6 +46,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .form__submit-btn:hover {

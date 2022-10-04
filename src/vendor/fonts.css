@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Nekst-Black';
     font-display: swap;
+    font-style: normal;
+    font-weight: 900;
     src: url('./fonts/Nekst-Black.woff2') format("woff2"),
         url('./fonts/Nekst-Black.woff') format("woff");
 }
@@ -8,6 +10,8 @@
 @font-face {
     font-family: 'Gilroy';
     font-display: swap;
+    font-style: normal;
+    font-weight: 900;
     src: url('./fonts/Gilroy-Black.woff2') format("woff2"),
         url('./fonts/Gilroy-Black.woff') format("woff");
 }
@@ -15,6 +19,8 @@
 @font-face {
     font-family: 'Gilroy';
     font-display: swap;
+    font-style: normal;
+    font-weight: 900;
     src: url('./fonts/Gilroy-Regular.woff2') format("woff2"),
         url('./fonts/Gilroy-Regular.woff') format("woff");
 }
