@@ -1,6 +1,5 @@
 {
   "name": "oxem-test",
-  "homepage": "https://julia-rulova.github.io/Oxem-Test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
